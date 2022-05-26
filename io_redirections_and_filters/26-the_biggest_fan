@@ -1,1 +1,2 @@
-26-the_biggest_fan
+#!/bin/bash
+tail +2 | cut -f1 | sort | uniq -c | sort -nr | head -11 | rev | cut -d ' ' -f1 | rev

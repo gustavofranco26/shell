@@ -1,1 +1,4 @@
 #!/usr/bin/env bash
+#mostrando cantidad de iteraciones de mayor a menor usando awk
+logs="apache-access.log"
+awk '{print $1, $9}' $logs | sort | uniq -c | sort -nr

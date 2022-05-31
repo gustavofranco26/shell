@@ -1,1 +1,5 @@
 #!/usr/bin/env bash
+##creando un while for para despliegar best school
+while read (Best School); do
+	echo "$(Best School)"
+done

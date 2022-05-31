@@ -7,7 +7,7 @@ while [ $hora -le 12 ];do
 	while [ $minute -le 59 ]
 	do
 		echo "$minute"
-		minuto=$((minute+1))
+		minute=$((minute+1))
 	done
 	hora=$((hora+1))
 done

@@ -1,14 +1,13 @@
 #!/usr/bin/env bash
 #creando un while que muestre durante todo las 12 horas y 59 minutos
-horas=0
-while [ "$horas" -le 12 ]
-do
-	echo "Horas: $horas"
-	minutos=1
-	while [ $minutos -le 59 ]
+hora=0
+while [ $hora -le 12 ];do
+	echo "Hour: $hora"
+	minute=1
+	while [ $minute -le 59 ]
 	do
-		echo "$minutos"
-		minutos=$((minutos + 1))
+		echo "$minute"
+		minuto=$((minute+1))
 	done
-	horas=$((horas + 1))
+	hora=$((hora+1))
 done

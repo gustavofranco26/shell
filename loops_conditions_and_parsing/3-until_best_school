@@ -1,1 +1,7 @@
 #!/usr/bin/env bash
+##creando un until for para despliegar best school
+COUNTER=0
+until [ $COUNTER -eq 10 ]; do
+        echo "Best School"
+        ((COUNTER++))
+done

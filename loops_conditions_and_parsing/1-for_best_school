@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #creando un bucle for para despliegar best school
-for i in "Best School";
+for i in 'Best School';
 do
 	echo $i
 done

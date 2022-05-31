@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #creando un script que muestre el directorio en lista
-Lista="$(ls)"
-for i "$lista" in "*"
+List="$(ls)"
+for i in $List
 do
         echo "$i" | cut -d "-" -f2
 done

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#para mostrar mi propio PID debo escribir esto:
+echo $$

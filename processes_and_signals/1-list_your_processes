@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-#
-
-
+#si deseas imprimir una lista de todos los procesos en ejecucion has esto:
+ps -aux

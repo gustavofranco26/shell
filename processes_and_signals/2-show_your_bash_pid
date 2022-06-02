@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-#
-
-
+#mostrando lineas que contengan bash guiandome del script anterior
+#shellcheck disable=SC2009
+ps -xfuec

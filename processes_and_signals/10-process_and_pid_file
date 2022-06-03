@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #vamos a crear varias condiciones y depende de eso ejecutamos los trap
-trap "echo I hate the kill command" 15
+trap "echo I hate the kill command; rm -r /var/run/myscript.pid; exit" 15
 trap "echo Y U no love me?!" 2
-trap "rm -r /var/run/myscript.pid; exit" 3 15
+trap "rm -r /var/run/myscript.pid; exit" 3
 
 echo $$ >> /var/run/myscript.pid
 
